@@ -1,0 +1,1 @@
+copy all of your flash games (.swf) into this folder
