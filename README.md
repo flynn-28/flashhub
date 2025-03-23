@@ -23,3 +23,20 @@ python3 -m main
 python3 -m http.server 3000
 ```
 7. Navigate to the site: ``localhost:3000``
+
+## Add games manually (without `list.py`)
+1. Open `games.json` in a text editor
+2. Add game name and path to the dictionary
+3. Example:
+```json
+[
+    {
+        "name": "Demo",
+        "path": "games/demo.swf"
+    },
+    {
+        "name": "Game 2",
+        "path": "games/game2.swf"
+    }
+]
+```

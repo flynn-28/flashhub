@@ -9,11 +9,18 @@
 </head>
 <body>
     <aside class="sidebar">
-        <h2>Select a Game</h2>
+        <div class="header">
+            <div id="uploadButton" class="upload-icon">
+                <img src="upload-icon.svg" width="25px" height="25px" alt="Upload SWF">
+            </div> 
+            <h2>Select a Game</h2>
+        </div>
         <div id="games"></div>
     </aside>
     <main class="container">
         <h1 id="title">Flash Game Player</h1>
+        
+        <input type="file" id="fileInput" accept=".swf" style="display:none">
         <button id="fullscreenToggle">Full Screen</button>
         <div id="player">
             <p>Select a game to start playing</p>
