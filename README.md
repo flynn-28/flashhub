@@ -1,5 +1,5 @@
 # Flash Hub
-
+**SEE [https://github.com/flynn-28/flashhub-server](https://github.com/flynn-28/flashhub-server) FOR MORE ADVANCED VERSION WITH DOCKER**
 ## Overview
 This project is an HTML page that uses ruffle to emulate flash games. It provides a UI for selecting the games. 
 
